@@ -9,3 +9,14 @@ variable "environment" {
   type        = string
 }
 
+#s3 variables 
+variable "web_file_bucket_name" {
+  description = "s3 bucket name"
+  type        = string
+}
+
+variable "website_file" {
+  description = "website file name"
+  type        = string
+}
+
