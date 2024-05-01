@@ -25,3 +25,8 @@ resource "aws_s3_bucket_cors_configuration" "s3_cors" {
 
 }
 
+output "s3_website_endpoint" {
+  value = aws_s3_bucket.website_file.website_endpoint
+}
+
+
